@@ -19,7 +19,7 @@ function startRandomColor() {
 }
 
 function stopRandomColor() {
-  functionInterval = clearInterval(functionInterval);
+  clearInterval(functionInterval);
   startButton.disabled = false;
   stopButton.disabled = true;
 }
